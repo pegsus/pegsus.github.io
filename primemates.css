@@ -1,22 +1,92 @@
+/* This is just something that normalizes the CSS */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* beginnging of css*/
 .top {
 		display: inline;
-		padding: 20px;
+		padding: 50px;
 
 	}
 .top a {
 		color: rgba(255,255,255,1);
+        position: relative;
+        left: -50px;
+        font-size: 20px
 }
 header {
-		text-align: center;
 		background: rgba(0,0,0,0.8);
 		color: rgba(255,255,255,1);
 		background: url("http://yourshot.nationalgeographic.com/u/ss/fQYSUbVfts-T7pS2VP2wnKyN8wxywmXtY0-FwsgxoJBO2acO1-br1FHYvfNKB6Ji-jWjFAeARBt3SQlsUurF/");
-		background-size: 100%;
-		margin: 0;
-		padding: 0;
+		background-size: contain;
+        line-height: 50px;
 	}
 h1 {
 	font-size: 40px;
+    position: relative;
+    left: 25px;
+    padding: 20px
+}
+p {
+    text-align: left;
+    position: relative;
+    left: 40px;
+    line-height: 20px;
+}
+.title {
+    width: 350px;
+    height: 100px;
+}
+.menu {
+    width: 700px;
+    margin-left: 600px;
 }
 /* The side navigation menu */
 #mySidenav {
@@ -24,7 +94,7 @@ h1 {
     width: 200px; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 0;
+    top: 150px;
     left: 0;
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
