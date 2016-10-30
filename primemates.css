@@ -53,53 +53,57 @@ table {
 .top {
 		display: inline;
 		padding: 50px;
-
 	}
 .top a {
 		color: rgba(255,255,255,1);
         position: relative;
         left: -50px;
-        font-size: 20px
+        font-size: 20px;
 }
 header {
-		background: rgba(0,0,0,0.8);
 		color: rgba(255,255,255,1);
-		background: url("http://yourshot.nationalgeographic.com/u/ss/fQYSUbVfts-T7pS2VP2wnKyN8wxywmXtY0-FwsgxoJBO2acO1-br1FHYvfNKB6Ji-jWjFAeARBt3SQlsUurF/");
-		background-size: contain;
+		background: url("https://c402277.ssl.cf1.rackcdn.com/photos/1368/images/story_full_width/Sumatran_Orangutan_8.6.2012_Why_They_Matter_XL_257639.jpg?1433174986");
+		background-size: cover;
         line-height: 50px;
+        height: 700px;
 	}
 h1 {
-	font-size: 40px;
-    position: relative;
+	font-size: 50px;
     left: 25px;
-    padding: 20px
+    padding: 0 0 10px 0;
 }
 p {
     text-align: left;
-    position: relative;
     left: 40px;
     line-height: 20px;
+    font-size: 20px;
 }
 .title {
     width: 350px;
-    height: 100px;
+    margin: 10px;
+    float: left;
 }
 .menu {
-    width: 700px;
-    margin-left: 600px;
+    width: 600px;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    float: right;
+
 }
 /* The side navigation menu */
 #mySidenav {
     height: 100%; /* 100% Full-height */
     width: 200px; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
+    position: relative; /* Stay in place */
     z-index: 1; /* Stay on top */
-    top: 150px;
+    top: -550px;
     left: 0;
     background-color: #111; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    border: 10px;
+    border-radius: 20px;
 }
 
 /* The navigation menu links */
