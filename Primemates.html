@@ -1,28 +1,92 @@
 <!DOCTYPE html>
 <html>
-
+<link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PRIME MATES</title>
 <link rel="stylesheet" type="text/css" href="primemates.css">
 </head>
 <body>
-	<header>
-		<div id="heading">
-			<div class="menu">
-			<ul>
-				<li class="top"><a href="#">About Us</a></li>
-				<li class="top"><a href="#">Our Monkeys</a></li>
-				<li class="top"><a href="#">Donate now</a></li>
-			</ul>
-			</div>
-			<div class="title">
-				<h1>PRIME MATES</h1>
-				<p><strong>Your comprehensive guide to the world's most endangered primates.</strong></p>
-			</div>
-		</div>
-	</header>
+<!--Nav bar-->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+		          	<span class="icon-bar"></span>
+		         	<span class="icon-bar"></span>
+		         	<span class="icon-bar"></span>
+				</button>
+				<!--"Brand"-->
+				<a class="navbar-brand" href="#">PRIME MATES</a>
+			</div><!--navbar header-->
+			<!--main buttons of navbar-->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href='#'>About Us<span class="sr-only">(current)</span></a></li>
+					<li class="dropown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our Monkeys <span class="caret"></span></a>
+	          			<ul class="dropdown-menu">
+		            		<li><a href="#">Gorilla</a></li>
+		            		<li><a href="#">Orangutan</a></li>
+		            		<li><a href="#">Capuchins</a></li>
+		            		<!--If you want a seperated link: 
+		            		<li role="separator" class="divider"></li>
+		            		<li><a href="#">Separated link</a></li>
+		            		<li role="separator" class="divider"></li>
+		            		<li><a href="#">One more separated link</a></li> -->
+	          			</ul>
+	          		</li>
+					<li><a href='#'>Donate Now<span class="sr-only">(current)</span></a></li>
+				</ul>
+			</div><!--main navbar-->
+		</div> <!--nav container-->
+	</nav>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h1>Your comprehensive guide to the world's most endangered primates.</h1>
+				</div> <!--col-->
+			</div> <!--row-->
+		</div> <!--jumbotron container-->
+	</div> <!--jumbotron-->
+	<div id="information" class="text-center">
+		<div id="about-us">
+			<div class="container">
+				<h2>About Us</h2>
+				<p>We are dedicated to informing monkey lovers around the world about the current status of certain endangered species of Primates and the steps you can take to help them.</p>
+			</div><!--container-->
+		</div><!--about us-->
+		<div id="gorillas" class="text-center">
+			<div class="container">
+				<h2>The Gorilla</h2>
+			</div><!-- container-->
+		</div><!--gorillas-->
+		<div id="orangutans" class="text-center">
+			<div class="container">
+				<h2>The Orangutan</h2>
+			</div><!-- container-->
+		</div><!--orangutans-->
+		<div id="capuchins" class="text-center">
+			<div class="container">
+				<h2>The Capuchin</h2>
+			</div><!-- container-->
+		</div><!--capuchin-->
+		<div id="lemurs" class="text-center">
+			<div class="container">
+				<h2>The Lemur</h2>
+			</div><!-- container-->
+		</div><!--lemurs-->
+	</div> <!--information-->
+	<div id="donations" class="text-center">
+	<div class="container">
+		<h2>Donate Now</h2>
+	</div><!--container-->
+	</div> <!--donations-->
+	<!--
 	<div id="mySidenav" class "sidenav">
-	<!-- fancy menu!!! -->
+	<!-- fancy menu!!! 
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 		<a href="#">Home</a>
 		<a href="#">Orangutans</a>
@@ -31,7 +95,8 @@
 		<a href="#">Lemurs</a>
 		<a href="#">How You Can Help</a>
 		<a href="#">Contact Us</a>
-	</div>
+	</div> 
 <!--<span onclick="openNav()">open</span>-->
+
 </body>
 </html>

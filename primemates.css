@@ -50,46 +50,54 @@ table {
 }
 
 /* beginnging of css*/
-.top {
-		display: inline;
-		padding: 50px;
-	}
-.top a {
-		color: rgba(255,255,255,1);
-        position: relative;
-        left: -50px;
-        font-size: 20px;
-}
-header {
-		color: rgba(255,255,255,1);
-		background: url("https://c402277.ssl.cf1.rackcdn.com/photos/1368/images/story_full_width/Sumatran_Orangutan_8.6.2012_Why_They_Matter_XL_257639.jpg?1433174986");
-		background-size: cover;
-        line-height: 50px;
-        height: 700px;
-	}
-h1 {
-	font-size: 50px;
-    left: 25px;
-    padding: 0 0 10px 0;
-}
-p {
-    text-align: left;
-    left: 40px;
-    line-height: 20px;
-    font-size: 20px;
-}
-.title {
-    width: 350px;
-    margin: 10px;
-    float: left;
-}
-.menu {
-    width: 600px;
-    margin-bottom: 10px;
-    margin-top: 60px;
-    float: right;
 
+.navbar-inverse{
+background-color: rgba(32,35,41,0.7);
 }
+
+.jumbotron {
+	color: rgba(255,255,255,1);
+	background: url("https://c402277.ssl.cf1.rackcdn.com/photos/1368/images/story_full_width/Sumatran_Orangutan_8.6.2012_Why_They_Matter_XL_257639.jpg?1433174986");
+	background-size: cover;
+    padding-top: 100px;
+    min-height: 700px; /*Keeps pic big*/
+}
+.jumbotron h1 {
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: -30px;
+    /*border: solid;
+    border-radius: 20px;
+    border-color: black;*/
+}
+#information {
+    color: rgba(32,35,41,1);
+    margin-top: -30px;
+}
+#information h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+#information .container {
+    padding: 20px;
+    height: 200px;
+}
+#about-us {
+    background-color: rgba(40,35,41,0.3)
+}
+#gorillas{
+    background-color: rgba(40,35,41,0.1)
+}
+#orangutans {
+    background-color: rgba(40,35,41,0.3)
+}
+#capuchins {
+    background-color: rgba(40,35,41,0.1)
+}
+#lemurs {
+    background-color: rgba(40,35,41,0.3)
+}
+
 /* The side navigation menu */
 #mySidenav {
     height: 100%; /* 100% Full-height */
