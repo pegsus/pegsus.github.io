@@ -72,15 +72,15 @@ background-color: rgba(32,35,41,0.7);
 }
 #information {
     color: rgba(32,35,41,1);
-    margin-top: -30px;
+    margin-top: -30px; /*removing gap from picture*/
 }
 #information h2 {
-    font-size: 20px;
-    padding-bottom: 10px;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 #information .container {
     padding: 20px;
-    height: 200px;
+    height: 300px; /*size of each div*/
 }
 #about-us {
     background-color: rgba(40,35,41,0.3)
