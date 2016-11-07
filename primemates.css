@@ -97,6 +97,22 @@ background-color: rgba(32,35,41,0.7);
 #lemurs {
     background-color: rgba(40,35,41,0.3)
 }
+#donations {
+    height: 300px;
+}
+
+.footer {
+    background-color: rgba(0,0,0,1);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+
+.text-muted {
+    color: rgba(255,255,255,1);
+}
+
+
 
 /* The side navigation menu */
 #mySidenav {
