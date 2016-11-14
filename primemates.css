@@ -53,10 +53,14 @@ table {
 
 .navbar-inverse{
 background-color: rgba(32,35,41,0.7);
+font-family: 'Rubik one', cursive;
+font-size: 20px;
+padding-top: 10px;
 }
 
 .navbar-brand{
-    font-family: 'Modak', cursive;
+    font-size: 55px;
+    font-family: 'Modak',cursive;
 }
 
 .jumbotron {
@@ -67,9 +71,10 @@ background-color: rgba(32,35,41,0.7);
     min-height: 700px; /*Keeps pic big*/
 }
 .jumbotron h1 {
-    font-size: 25px;
+    font-size: 30px;
     margin-top: -20px;
     margin-left: -30px;
+    font-family: 'Sigmar One', cursive;
     /*border: solid;
     border-radius: 20px;
     border-color: black;*/
