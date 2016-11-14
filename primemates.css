@@ -55,6 +55,10 @@ table {
 background-color: rgba(32,35,41,0.7);
 }
 
+.navbar-brand{
+    font-family: 'Modak', cursive;
+}
+
 .jumbotron {
 	color: rgba(255,255,255,1);
 	background: url("https://c402277.ssl.cf1.rackcdn.com/photos/1368/images/story_full_width/Sumatran_Orangutan_8.6.2012_Why_They_Matter_XL_257639.jpg?1433174986");
