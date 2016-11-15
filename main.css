@@ -89,22 +89,22 @@ padding-top: 10px;
 }
 #information .container {
     padding: 20px;
-    height: 500px; /*size of each div*/
+    height: 600px; /*size of each div*/
 }
 #about-us {
-    background-color: rgba(40,35,41,0.3)
+    background-color: rgba(40,35,41,0.3);
 }
 #gorillas{
-    background-color: rgba(40,35,41,0.1)
+    background-color: rgba(40,35,41,0.1);
 }
 #orangutans {
-    background-color: rgba(40,35,41,0.3)
+    background-color: rgba(40,35,41,0.3);
 }
 #capuchins {
-    background-color: rgba(40,35,41,0.1)
+    background-color: rgba(40,35,41,0.1);
 }
 #lemurs {
-    background-color: rgba(40,35,41,0.3)
+    background-color: rgba(40,35,41,0.3);
 }
 #donations {
     height: 300px;
