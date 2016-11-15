@@ -106,7 +106,7 @@ padding-top: 10px;
 #gorillas img {
     height: 470px;
     width: 470px;
-    float: right;
+    /*float: right;*/
 }
 #gorillas .gorilla-text{
     height: 485px;
@@ -133,18 +133,22 @@ padding-top: 10px;
     height:600px;
 }
 #donations {
-    height: 300px;
+    height: 500px;
 }
 
 .footer {
     background-color: rgba(0,0,0,1);
-    height: 60px;
+    height: 200px;
     position: absolute;
     width: 100%;
+}
+.footer .footer-text {
+    line-height: 30px;
 }
 
 .text-muted {
     color: rgba(255,255,255,1);
+    font-size: 20px;
 }
 
 
