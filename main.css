@@ -88,9 +88,12 @@ padding-top: 10px;
     padding-bottom: 20px;
     font-family: 'Rubik one', cursive;
 }
+#information p {
+    font-size: 20px;
+}
 #information .container {
     padding: 20px;
-    height: 600px; /*size of each div*/
+    /*height: 600px;*/ /*size of each div*/
 }
 #about-us {
     background-color: rgba(40,35,41,0.3);
@@ -98,6 +101,7 @@ padding-top: 10px;
 }
 #gorillas {
     background-color: rgba(40,35,41,0.1);
+    height: 600px;
 }
 #gorillas img {
     height: 470px;
@@ -114,12 +118,15 @@ padding-top: 10px;
 }
 #orangutans {
     background-color: rgba(40,35,41,0.3);
+    height: 600px;
 }
 #capuchins {
     background-color: rgba(40,35,41,0.1);
+    height: 600px;
 }
 #lemurs {
     background-color: rgba(40,35,41,0.3);
+    height:600px;
 }
 #donations {
     height: 300px;
