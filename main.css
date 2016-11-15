@@ -81,11 +81,12 @@ padding-top: 10px;
 }
 #information {
     color: rgba(32,35,41,1);
-    margin-top: -20px; /*removing gap from picture*/
+    margin-top: -30px; /*removing gap from picture*/
 }
 #information h2 {
     font-size: 40px;
     padding-bottom: 20px;
+    font-family: 'Rubik one', cursive;
 }
 #information .container {
     padding: 20px;
@@ -95,8 +96,21 @@ padding-top: 10px;
     background-color: rgba(40,35,41,0.3);
     height: 600px;
 }
-#gorillas{
+#gorillas .gorilla-text{
     background-color: rgba(40,35,41,0.1);
+}
+#gorillas img {
+    height: 470px;
+    width: 470px;
+    float: right;
+}
+#gorillas .gorilla-text{
+    height: 485px;
+}
+#gorillas .gorilla-photo {
+    background: url("http://i.dailymail.co.uk/i/pix/2014/04/14/article-2604010-1D117C4D00000578-291_634x782.jpg");
+    background-size: 100%;
+    height: 485px;
 }
 #orangutans {
     background-color: rgba(40,35,41,0.3);
