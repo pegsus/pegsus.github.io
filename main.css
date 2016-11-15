@@ -111,6 +111,10 @@ padding-top: 10px;
 #gorillas .gorilla-text{
     height: 485px;
 }
+#gorillas .gorilla-text img{
+    height:80px;
+    width: 150px;
+}
 #gorillas .gorilla-photo {
     /*background: url("http://i.dailymail.co.uk/i/pix/2014/04/14/article-2604010-1D117C4D00000578-291_634x782.jpg");
     background-size: 100%;*/
