@@ -81,7 +81,7 @@ padding-top: 10px;
 }
 #information {
     color: rgba(32,35,41,1);
-    margin-top: -30px; /*removing gap from picture*/
+    margin-top: -20px; /*removing gap from picture*/
 }
 #information h2 {
     font-size: 40px;
@@ -89,7 +89,7 @@ padding-top: 10px;
 }
 #information .container {
     padding: 20px;
-    height: 300px; /*size of each div*/
+    height: 500px; /*size of each div*/
 }
 #about-us {
     background-color: rgba(40,35,41,0.3)
