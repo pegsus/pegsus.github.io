@@ -51,6 +51,9 @@ table {
 */
 /* beginnging of css*/
 
+body {
+    padding-bottom: 70px;
+}
 .navbar-inverse{
 background-color: rgba(32,35,41,0.7);
 font-family: 'Rubik one', cursive;
