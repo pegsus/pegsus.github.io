@@ -103,17 +103,24 @@ padding-top: 10px;
     background-color: rgba(40,35,41,0.1);
     height: 600px;
 }
-#gorillas img {
-    height: 470px;
-    width: 470px;
+#gorillas .col-sm-6 img {
+    
     /*float: right;*/
+}
+.profile-photo {
+    margin-top: -20px;
+    height: 600px;
+    width: 650px;
+}
+.logo{
+    width: 200px;
+    height:100px;
 }
 #gorillas .gorilla-text{
     height: 485px;
 }
-#gorillas .gorilla-text img{
-    height:100px;
-    width: 200px;
+#gorillas .gorilla-text {
+    margin-right: -20px;
 }
 #gorillas .gorilla-photo {
     /*background: url("http://i.dailymail.co.uk/i/pix/2014/04/14/article-2604010-1D117C4D00000578-291_634x782.jpg");
@@ -123,7 +130,7 @@ padding-top: 10px;
 #orangutans {
     background-color: rgba(40,35,41,0.3);
     height: 600px;
-}
+} 
 #capuchins {
     background-color: rgba(40,35,41,0.1);
     height: 600px;
