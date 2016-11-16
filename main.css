@@ -51,11 +51,8 @@ table {
 */
 /* beginnging of css*/
 
-body {
-    padding-top: 70px;
-}
 .navbar-inverse{
-background-color: rgba(32,35,41,0.7);
+background-color: rgba(32,35,41,0);
 font-family: 'Rubik one', cursive;
 font-size: 20px;
 padding-top: 10px;
@@ -85,6 +82,7 @@ padding-top: 10px;
 #information {
     color: rgba(32,35,41,1);
     margin-top: -30px; /*removing gap from picture*/
+    
 }
 #information h2 {
     font-size: 40px;
@@ -101,10 +99,14 @@ padding-top: 10px;
 #about-us {
     background-color: rgba(40,35,41,0.3);
     height: 600px;
+    padding-top: 73px;
+    margin-top: -73px;
 }
 #gorillas {
     background-color: rgba(40,35,41,0.1);
     height: 600px;
+    padding-top: 73px;
+    margin-top: -73px;
 }
 #gorillas .col-sm-6 img {
     
@@ -133,6 +135,8 @@ padding-top: 10px;
 #orangutans {
     background-color: rgba(40,35,41,0.3);
     height: 600px;
+    padding-top: 73px;
+    margin-top: -73px;
 } 
 .orangutan-photo{
     margin-left:-20px;
@@ -140,13 +144,19 @@ padding-top: 10px;
 #capuchins {
     background-color: rgba(40,35,41,0.1);
     height: 600px;
+    padding-top: 73px;
+    margin-top: -73px;
 }
 #lemurs {
     background-color: rgba(40,35,41,0.3);
     height:600px;
+    padding-top: 73px;
+    margin-top: -73px;
 }
 #donations {
     height: 500px;
+    padding-top: 73px;
+    margin-top: -73px;
 }
 
 .footer {
