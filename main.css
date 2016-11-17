@@ -52,7 +52,7 @@ table {
 /* beginnging of css*/
 
 .navbar-inverse{
-background-color: rgba(32,35,41,0);
+background-color: rgba(32,35,41,0.7);
 font-family: 'Rubik one', cursive;
 font-size: 20px;
 padding-top: 10px;
