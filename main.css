@@ -102,8 +102,8 @@ padding-top: 10px;
 #about-us {
     background-color: rgba(40,35,41,0);
     height: 600px;
-    /*padding-top: 73px;
-    margin-top: -73px;*/
+    padding-top: 73px;
+    margin-top: -73px;
 }
 #gorillas {
     background-color: rgba(40,35,41,0.1);
