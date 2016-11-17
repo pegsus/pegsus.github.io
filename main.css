@@ -51,8 +51,8 @@ table {
 */
 /* beginnging of css*/
 /*body {
-    padding-top: 73px;*/
-}
+    padding-top: 73px;
+}*/
 
 .navbar-inverse{
 background-color: rgba(32,35,41,0.7);
@@ -131,6 +131,10 @@ padding-top: 10px;
     right: 40px;
     width: 200px;
     height: 100px;
+}
+.virunga-button {
+    position: relative;
+    right: 40px;
 }
 #gorillas .gorilla-photo {
     /*background: url("http://i.dailymail.co.uk/i/pix/2014/04/14/article-2604010-1D117C4D00000578-291_634x782.jpg");
