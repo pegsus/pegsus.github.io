@@ -50,6 +50,9 @@ table {
 }
 */
 /* beginnging of css*/
+body {
+    padding-top: 73px;
+}
 
 .navbar-inverse{
 background-color: rgba(32,35,41,0.7);
