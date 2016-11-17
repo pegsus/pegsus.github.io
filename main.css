@@ -138,7 +138,7 @@ padding-top: 10px;
     margin-top: -73px;
 } 
 .orangutan-photo{
-    margin-left:-20px;
+    float:left;
 }
 #capuchins {
     background-color: rgba(40,35,41,0.1);
