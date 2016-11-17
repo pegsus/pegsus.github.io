@@ -92,9 +92,7 @@ padding-top: 10px;
     padding-bottom: 0px;
     font-family: 'Rubik one', cursive;
 }
-#information p {
-    font-size: 20px;
-}
+
 #information .container {
     padding: 20px;
     /*height: 600px;*/ /*size of each div*/
@@ -105,9 +103,16 @@ padding-top: 10px;
     padding-top: 73px;
     margin-top: -73px;
 }
+#about-us p {
+    font-size:20px;
+}
+.logo{
+    width: 400px;
+    height:400px;
+}
 #gorillas {
     background-color: rgba(40,35,41,0);
-    height: 700px;
+    height: 800px;
     padding-top: 73px;
     margin-top: -73px;
 }
@@ -116,9 +121,11 @@ padding-top: 10px;
     height: 600px;
     width: 650px;
 }
-.logo{
-    width: 400px;
-    height:400px;
+#gorillas p {
+    font-size:15px;
+}
+#gorillas ul {
+    font-size: 15px;
 }
 #gorillas .gorilla-text{
     height: 485px;
@@ -128,7 +135,7 @@ padding-top: 10px;
 }
 .virunga-logo {
     position: relative;
-    right: 40px;
+    right: 100px;
     width: 200px;
     height: 100px;
 }
