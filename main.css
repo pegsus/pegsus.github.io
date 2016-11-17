@@ -110,7 +110,7 @@ padding-top: 10px;
     width: 400px;
     height:400px;
 }
-#gorillas {
+#gorillas .container {
     background-color: rgba(40,35,41,0);
     height: 800px;
     padding-top: 73px;
@@ -118,48 +118,67 @@ padding-top: 10px;
 }
 .profile-photo {
     margin-top: -20px;
-    height: 600px;
+    height: 650px;
     width: 650px;
 }
 #gorillas p {
     font-size:15px;
 }
+
 #gorillas ul {
     font-size: 15px;
 }
+
 #gorillas .gorilla-text{
     height: 485px;
-}
-#gorillas .gorilla-text {
     margin-right: -20px;
 }
+
 .virunga-logo {
     position: relative;
-    right: 100px;
-    width: 200px;
+    width: 215px;
     height: 100px;
+    right: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
 }
 .virunga-button {
     position: relative;
-    right: 40px;
 }
 #gorillas .gorilla-photo {
     /*background: url("http://i.dailymail.co.uk/i/pix/2014/04/14/article-2604010-1D117C4D00000578-291_634x782.jpg");
     background-size: 100%;*/
-    height: 485px;
+    height: 673px;
     position: relative;
     left:20px;
 }
-#orangutans {
+
+#orangutans .container {
     background-color: rgba(40,35,41,0);
     height: 673px;
     padding-top: 73px;
     margin-top: -73px;
 } 
+
 .orangutan-photo{
     padding-left: -40px;
     position: relative;
     right: 70px;
+    height: 673px;
+    bottom: 77px;
+}
+
+.orangutan-foundation {
+    margin-top: 100px;
+}
+
+.orangutan-logo {
+    position:relative;
+    
+}
+.orangutan-button {
+    position: relative;
+    left: 20px;
 }
 #capuchins {
     background-color: rgba(40,35,41,0);
