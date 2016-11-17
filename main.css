@@ -126,6 +126,12 @@ padding-top: 10px;
 #gorillas .gorilla-text {
     margin-right: -20px;
 }
+.virunga-logo {
+    position: relative;
+    right: 40px;
+    width: 200px;
+    height: 100px;
+}
 #gorillas .gorilla-photo {
     /*background: url("http://i.dailymail.co.uk/i/pix/2014/04/14/article-2604010-1D117C4D00000578-291_634x782.jpg");
     background-size: 100%;*/
