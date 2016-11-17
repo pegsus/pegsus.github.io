@@ -71,6 +71,7 @@ padding-top: 10px;
     size: cover;
     max-height:700px;
     overflow: hidden;
+    width: 100%;
 }
 .item img {
     width: 100%;
