@@ -78,7 +78,6 @@ padding-top: 10px;
 }
 .carousel-inner {
     position: relative;
-    max-height:700px;
     overflow: hidden;
     width: 100%;
     height:100%;
@@ -106,7 +105,6 @@ padding-top: 10px;
     border-color: black;*/
 }
 #information {
-    color: rgba(32,35,41,1);
     margin-top: -30px; /*removing gap from picture*/
     
 }
@@ -141,8 +139,8 @@ padding-top: 10px;
 }
 .profile-photo {
     margin-top: -20px;
-    height: 650px;
-    width: 650px;
+    height: 100%;
+    width: 100%;
 }
 #gorillas p {
     font-size:15px;
