@@ -73,6 +73,7 @@ padding-top: 10px;
 }
 #carousel-example-generic {
     width:100%;
+    height: 100%;
 }
 .carousel {
     width: 100%;
@@ -108,10 +109,11 @@ padding-top: 10px;
     border-radius: 20px;
     border-color: black;*/
 }
+
 #information {
     margin-top: -30px; /*removing gap from picture*/
-    
-}
+} 
+
 #information h2 {
     font-size: 40px;
     padding-bottom: 0px;
@@ -119,7 +121,6 @@ padding-top: 10px;
 }
 
 #information .container {
-    padding: 20px;
     /*height: 600px;*/ /*size of each div*/
 }
 #about-us {
@@ -135,16 +136,16 @@ padding-top: 10px;
     width: 400px;
     height:400px;
 }
-#gorillas .container {
+#gorillas {
     background-color: rgba(40,35,41,0);
-    height: 800px;
+    height: 600px;
     padding-top: 73px;
     margin-top: -73px;
 }
-.profile-photo {
-    margin-top: -20px;
+/*.profile-photo {
+   margin-top: -20px;
     height: 100%;
-    width: 100%;
+    width: 100%;*/
 }
 #gorillas p {
     font-size:15px;
@@ -155,27 +156,31 @@ padding-top: 10px;
 }
 
 #gorillas .gorilla-text{
-    height: 485px;
-    margin-right: -20px;
+    height: 100%;
+    /*margin-right: -20px;*/
 }
 
 .virunga-logo {
     position: relative;
-    width: 215px;
+    width: 200px;
     height: 100px;
-    right: 50px;
+    /*right: 50px;*/
     padding-top: 10px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
+    display: inline;
 }
 .virunga-button {
-    position: relative;
+    /*position: relative;*/
+    display:inline;
 }
-#gorillas .gorilla-photo {
+
+.gorilla-photo {
     /*background: url("http://i.dailymail.co.uk/i/pix/2014/04/14/article-2604010-1D117C4D00000578-291_634x782.jpg");
     background-size: 100%;*/
-    height: 673px;
+    height: 400px;
+    width:400px;
     position: relative;
-    left:20px;
+    margin-top: 30px
 }
 
 #orangutans .container {
@@ -186,11 +191,11 @@ padding-top: 10px;
 } 
 
 .orangutan-photo{
-    padding-left: -40px;
+   /* padding-left: -40px;*/
     position: relative;
-    right: 70px;
-    height: 673px;
-    bottom: 77px;
+    /*right: 70px;*/
+    height: 100%;
+    /*bottom: 73px;*/
 }
 
 .orangutan-foundation {
@@ -199,6 +204,7 @@ padding-top: 10px;
 
 .orangutan-logo {
     position:relative;
+    display: inline;
     
 }
 .orangutan-button {
