@@ -183,7 +183,7 @@ padding-top: 10px;
     margin-top: 30px
 }
 
-#orangutans .container {
+#orangutans {
     background-color: rgba(40,35,41,0);
     height: 673px;
     padding-top: 73px;
@@ -191,7 +191,7 @@ padding-top: 10px;
 } 
 
 .orangutan-photo{
-   /* padding-left: -40px;*/
+    margin-top: 30px;
     position: relative;
     /*right: 70px;*/
     height: 100%;
@@ -199,7 +199,7 @@ padding-top: 10px;
 }
 
 .orangutan-foundation {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .orangutan-logo {
