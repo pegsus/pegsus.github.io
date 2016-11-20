@@ -116,19 +116,9 @@ display: inline;
     padding-top: 100px;
     min-height: 700px; *//*Keeps pic big*/
 }
-.jumbotron h1 {
-    font-size: 30px;
-    margin-top: -20px;
-    margin-left: -30px;
-    font-family: 'Sigmar One', cursive;
-    /*border: solid;
-    border-radius: 20px;
-    border-color: black;*/
-}
 
-#information {
+/*#information  {
     margin-top: -30px; /*removing gap from picture*/
-} 
 
 #information h2 {
     font-size: 40px;
@@ -136,9 +126,6 @@ display: inline;
     font-family: 'Rubik one', cursive;
 }
 
-#information .container {
-    /*height: 600px;*/ /*size of each div*/
-}
 #about-us {
     background-color: rgba(40,35,41,0);
     height: auto;
@@ -147,6 +134,18 @@ display: inline;
 }
 #about-us p {
     font-size:20px;
+}
+
+#about-us h2 {
+    text-align: center;
+    
+}
+
+label {
+    display: block;
+}
+input {
+    width: 40%;
 }
 .logo{
     width: 60%;
@@ -171,10 +170,11 @@ display: inline;
     font-size: 15px;
 }
 
-#gorillas .gorilla-text{
-    height: 100%;
+.gorilla-text{
+    height: auto;
     /*margin-right: -20px;*/
 }
+
 
 .virunga-logo {
     position: relative;
@@ -194,7 +194,7 @@ display: inline;
     /*background: url("http://i.dailymail.co.uk/i/pix/2014/04/14/article-2604010-1D117C4D00000578-291_634x782.jpg");
     background-size: 100%;*/
     height: auto;
-    width: 50%;
+    width: 60%;
     position: relative;
     margin-top: 30px
 }
@@ -252,12 +252,6 @@ display: inline;
     margin-top: 30px;
 }
 
-#lemurs {
-    background-color: rgba(40,35,41,0);
-    height:600px;
-    padding-top: 73px;
-    margin-top: -73px;
-}
 #donations {
     height: auto;
     padding-top: 73px;
@@ -266,8 +260,6 @@ display: inline;
 }
 
 #donations .container {
-    margin: 0;
-    margin-right: 0;
     width: 100%;
 }
 
