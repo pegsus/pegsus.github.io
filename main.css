@@ -84,16 +84,16 @@ display: inline;
 
 .jumbotron .container {
     width: 100%;
-    height: 100%;
+    height: auto;
     padding:0;
 }
 #carousel-example-generic {
     width:100%;
-    height: 100%;
+    height: auto;
 }
 .carousel {
     width: 100%;
-    height:100%;
+    height: auto;
 }
 .carousel-inner {
     position: relative;
@@ -109,7 +109,7 @@ display: inline;
     padding:0;
     margin: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
 	/*color: rgba(255,255,255,1);
 	background: url("https://c402277.ssl.cf1.rackcdn.com/photos/1368/images/story_full_width/Sumatran_Orangutan_8.6.2012_Why_They_Matter_XL_257639.jpg?1433174986");
 	background-size: cover;
